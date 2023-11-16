@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Kumbh Sans';
+    src: url('fonts/KumbhSans-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    font-family: "Kumbh Sans", sans-serif;
+    font-size: 16px;
+}
