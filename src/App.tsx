@@ -1,7 +1,15 @@
+import Header from "./components/Header"
+import Product from "./components/Product"
+
 function App() {
   return (
     <>
-      <div className="bg-red-500">App</div>
+      <Header />
+
+      <main>
+        <Product />
+      </main>
+
     </>
   )
 }
